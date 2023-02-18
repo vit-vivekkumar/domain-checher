@@ -28,3 +28,9 @@ else:
     # If WordPress is not running, output "No"
     print("No")
 </code>
+
+<p>
+To check if a domain is running on WordPress, we use a regular expression (wordpress_regex) to search for the presence of "wp-content" or "wp-includes" in the HTML response of the domain's homepage. These two directories are unique to WordPress installations and are almost always present in WordPress sites.
+
+If the regex pattern is found in the HTML response, it's safe to assume that the domain is running on WordPress. We can then extract the WordPress version by searching for a specific string that indicates the version number.
+</p>
