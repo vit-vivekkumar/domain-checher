@@ -1,6 +1,6 @@
 <p>Here's a Python script that takes a domain as input, checks if it's running on WordPress, and outputs "Yes" or "No" accordingly. It also extracts the WordPress version if it's running on WordPress.</p>
 <br/>
-<code>
+'''python
 import requests
 import re
 
@@ -27,7 +27,7 @@ if wordpress_match:
 else:
     # If WordPress is not running, output "No"
     print("No")
-</code>
+'''
 
 <p>
 To check if a domain is running on WordPress, we use a regular expression (wordpress_regex) to search for the presence of "wp-content" or "wp-includes" in the HTML response of the domain's homepage. These two directories are unique to WordPress installations and are almost always present in WordPress sites.
