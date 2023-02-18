@@ -1,5 +1,5 @@
 <p>Here's a Python script that takes a domain as input, checks if it's running on WordPress, and outputs "Yes" or "No" accordingly. It also extracts the WordPress version if it's running on WordPress.</p>
-
+![alt text](https://github.com/vit-vivekkumar/domain-checher/edit/main/domainchecker/Screenshot (47).png?raw=true)
 ```
 import requests
 import re
